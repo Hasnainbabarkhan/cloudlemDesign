@@ -1,0 +1,266 @@
+body{
+
+    font-family: sans-serif;
+  }
+  
+  .main {
+    width: 100%;
+    height: 10vh;
+    background-color: #eff6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12% 0;
+  }
+  #headline {
+    color: #64748b;
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 40%;
+  }
+  #iconOne {
+    width: 30%;
+  }
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff6ff;
+    max-width: 95%;
+    margin: auto;
+    padding: 5px 0;
+    color: #1e293b;
+  }
+  .devops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  .devopss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  #cardHeading {
+    color: #1e293b;
+  }
+  #devops {
+    text-align: center;
+    color: #64748b;
+    line-height: 25px;
+  }
+  .sericeCards {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    gap: 5%;
+  }
+  .aimHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff6ff;
+    max-width: 95%;
+    margin: auto;
+    padding: 5px 0;
+    color: #1e293b;
+    text-align: center;
+  }
+  ul li {
+    width: Fixed (380px) px;
+    height: Hug (142px) px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    color: #64748b;
+  }
+  .firstList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .leftList {
+    width: 40%;
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  #center {
+    text-align: center;
+    color: #1e293b;
+  }
+  .rightImg {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #experties {
+    width: Fixed (380px) px;
+    height: Hug (142px) px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    color: #64748b;
+  }
+  .secList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .secImg {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightList {
+    width: 40%;
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff6ff;
+    max-width: 95%;
+    margin: auto;
+    padding: 5px 0;
+    color: #1e293b;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+  }
+ .styled-button {
+    background-color: #1890FF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 50vw;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    margin: 4% 0;
+  }
+  .footer{
+    background: #EFF6FF;
+    padding: 24px 18px;
+    text-align: center;
+  }
+  #footerText{
+    color: #7F7F7F;
+  
+  font-size: 1.2rem;
+  text-align: center;
+  
+  
+  }
+  .devopss{
+    background-color: #F6F7F9;
+    border: none;
+  }
+  .styled-button:hover {
+    background-color: rgb(48, 103, 255);
+    transform: scale(1.05);
+  }
+  
+  .vectors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #logoFooter{
+    cursor: pointer;
+  }
+  @media (max-width: 425px) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    #headline {
+      width: 80%;
+      text-align: justify;
+    }
+    #iconOne {
+      width: 50%;
+    }
+    .main {
+      height: 10vh;
+    }
+  }
+  @media (max-width: 768px) {
+    .sericeCards {
+      flex-wrap: wrap;
+    }
+    .firstList {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .leftList {
+      width: 100%;
+      line-height: 30px;
+      font-size: 1.2rem;
+    }
+    .rightImg {
+      width: 100%;
+    }
+    .secList {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column-reverse;
+    }
+    .rightList {
+      width: 100%;
+      line-height: 30px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .secImg {
+      width: 100%;
+    }
+    #experties{
+      text-align: center;
+    }
+  }
+  
